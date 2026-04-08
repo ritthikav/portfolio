@@ -7,9 +7,9 @@
 
 body {
     background: #f5fbff;
-    color: #333;
 }
 
+/* Navbar */
 nav {
     display: flex;
     justify-content: space-between;
@@ -42,6 +42,7 @@ nav ul li a:hover {
     color: #dbeafe;
 }
 
+/* Hero */
 .hero {
     height: 90vh;
     background: linear-gradient(to right, #38bdf8, #e0f2fe);
@@ -51,18 +52,12 @@ nav ul li a:hover {
     flex-direction: column;
 }
 
-.hero h1 {
-    font-size: 36px;
-}
-
-.hero p {
-    font-size: 18px;
-}
-
+/* Section */
 section {
     padding: 50px;
 }
 
+/* Box */
 .box {
     background: white;
     padding: 20px;
@@ -71,6 +66,7 @@ section {
     box-shadow: 0 4px 10px rgba(0,0,0,0.1);
 }
 
+/* Form */
 input, textarea {
     width: 100%;
     padding: 10px;
@@ -88,9 +84,11 @@ button {
     border-radius: 8px;
 }
 
+/* Footer */
 footer {
     text-align: center;
     background: #0ea5e9;
     color: white;
     padding: 10px;
+    margin-top: 20px;
 }
