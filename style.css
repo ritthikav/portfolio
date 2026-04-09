@@ -8,13 +8,13 @@
 
 /* THEME */
 :root {
-    --accent: #e75480; /* soft pink */
+    --accent: #00bfa6; /* aquamarine blue */
 }
 
 /* BODY */
 body {
-    background: #000;
-    color: #fff;
+    background: #ffffff;
+    color: #111;
 }
 
 /* NAVBAR */
@@ -23,21 +23,19 @@ nav {
     justify-content: space-between;
     align-items: center;
     padding: 15px 40px;
-    border-bottom: 1px solid rgba(231, 84, 128, 0.4);
+    border-bottom: 1px solid rgba(0, 191, 166, 0.3);
+    background: #fff;
 }
 
-/* LOGO IMAGE (NO CIRCLE) */
+/* LOGO */
 .logo {
     width: 120px;
     height: auto;
-    border: none;
-    box-shadow: none;
     transition: 0.3s;
 }
 
 .logo:hover {
     transform: scale(1.05);
-    filter: brightness(1.1);
 }
 
 /* NAV LINKS */
@@ -52,7 +50,7 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    color: #fff;
+    color: #111;
     transition: 0.3s;
 }
 
@@ -71,18 +69,19 @@ nav ul li a:hover {
 
 .hero h1 {
     font-size: 40px;
-    text-shadow: 0 0 8px rgba(231, 84, 128, 0.3);
+    color: #111;
 }
 
 .hero h2 {
     margin-top: 10px;
-    color: #aaa;
+    color: #555;
 }
 
 .intro {
     margin-top: 20px;
     max-width: 600px;
     text-align: center;
+    color: #444;
 }
 
 .trust {
@@ -97,12 +96,12 @@ section {
 
 /* BOX */
 .box {
-    background: #111;
+    background: #f9f9f9;
     padding: 20px;
     margin-top: 20px;
     border-radius: 10px;
-    border: 1px solid rgba(231, 84, 128, 0.4);
-    box-shadow: 0 0 6px rgba(231, 84, 128, 0.2);
+    border: 1px solid rgba(0, 191, 166, 0.3);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
 }
 
 /* FORM */
@@ -110,9 +109,9 @@ input, textarea {
     width: 100%;
     padding: 10px;
     margin-top: 10px;
-    background: #000;
-    border: 1px solid rgba(231, 84, 128, 0.4);
-    color: #fff;
+    background: #fff;
+    border: 1px solid rgba(0, 191, 166, 0.3);
+    color: #111;
 }
 
 button {
@@ -123,16 +122,18 @@ button {
     cursor: pointer;
     font-weight: bold;
     color: #fff;
+    border-radius: 5px;
 }
 
 button:hover {
-    box-shadow: 0 0 8px rgba(231, 84, 128, 0.4);
+    background: #009e8a; /* slightly darker on hover */
 }
 
 /* FOOTER */
 footer {
     text-align: center;
     padding: 10px;
-    border-top: 1px solid rgba(231, 84, 128, 0.4);
+    border-top: 1px solid rgba(0, 191, 166, 0.3);
     margin-top: 20px;
+    color: #555;
 }
