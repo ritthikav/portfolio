@@ -19,18 +19,46 @@ nav {
     border-bottom: 1px solid #0ff;
 }
 
-/* LOGO */
+/* LOGO - BIG NEON STYLE */
 .logo {
-    width: 50px;
-    height: 50px;
+    width: 80px;
+    height: 80px;
     border-radius: 50%;
-    border: 2px solid #0ff;
+    
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #0ff;
+
+    font-size: 28px;
     font-weight: bold;
-    box-shadow: 0 0 15px #0ff;
+    letter-spacing: 2px;
+
+    color: #0ff;
+    border: 3px solid #0ff;
+
+    /* NEON GLOW */
+    box-shadow:
+        0 0 5px #0ff,
+        0 0 15px #0ff,
+        0 0 30px #0ff,
+        0 0 60px #0ff;
+
+    text-shadow:
+        0 0 5px #0ff,
+        0 0 10px #0ff,
+        0 0 20px #0ff;
+
+    transition: 0.3s;
+}
+
+/* HOVER EFFECT */
+.logo:hover {
+    transform: scale(1.1);
+    box-shadow:
+        0 0 10px #0ff,
+        0 0 25px #0ff,
+        0 0 50px #0ff,
+        0 0 100px #0ff;
 }
 
 /* NAV LINKS */
