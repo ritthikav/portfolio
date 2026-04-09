@@ -6,89 +6,126 @@
 }
 
 body {
-    background: #f5fbff;
+    background: #000;
+    color: #fff;
 }
 
-/* Navbar */
+/* NAVBAR */
 nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: #0ea5e9;
     padding: 15px 40px;
-    color: white;
+    border-bottom: 1px solid #0ff;
 }
 
+/* LOGO */
 .logo {
-    font-size: 20px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 2px solid #0ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #0ff;
     font-weight: bold;
+    box-shadow: 0 0 15px #0ff;
 }
 
+/* NAV LINKS */
 nav ul {
     display: flex;
     list-style: none;
 }
 
 nav ul li {
-    margin-left: 20px;
+    margin-left: 25px;
 }
 
 nav ul li a {
     text-decoration: none;
-    color: white;
+    color: #fff;
+    transition: 0.3s;
 }
 
 nav ul li a:hover {
-    color: #dbeafe;
+    color: #0ff;
+    text-shadow: 0 0 10px #0ff;
 }
 
-/* Hero */
+/* HERO */
 .hero {
     height: 90vh;
-    background: linear-gradient(to right, #38bdf8, #e0f2fe);
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
 
-/* Section */
+.hero h1 {
+    font-size: 40px;
+    text-shadow: 0 0 20px #0ff;
+}
+
+.hero h2 {
+    margin-top: 10px;
+    color: #aaa;
+}
+
+.intro {
+    margin-top: 20px;
+    max-width: 600px;
+    text-align: center;
+}
+
+.trust {
+    margin-top: 20px;
+    color: #0ff;
+}
+
+/* SECTION */
 section {
     padding: 50px;
 }
 
-/* Box */
+/* BOX */
 .box {
-    background: white;
+    background: #111;
     padding: 20px;
     margin-top: 20px;
     border-radius: 10px;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    border: 1px solid #0ff;
+    box-shadow: 0 0 10px rgba(0,255,255,0.3);
 }
 
-/* Form */
+/* FORM */
 input, textarea {
     width: 100%;
     padding: 10px;
     margin-top: 10px;
-    border-radius: 8px;
-    border: 1px solid #ccc;
+    background: #000;
+    border: 1px solid #0ff;
+    color: #fff;
 }
 
 button {
     margin-top: 10px;
     padding: 10px;
-    background: #0ea5e9;
-    color: white;
+    background: #0ff;
     border: none;
-    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
 }
 
-/* Footer */
+button:hover {
+    box-shadow: 0 0 15px #0ff;
+}
+
+/* FOOTER */
 footer {
     text-align: center;
-    background: #0ea5e9;
-    color: white;
     padding: 10px;
+    border-top: 1px solid #0ff;
     margin-top: 20px;
 }
