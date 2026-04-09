@@ -29,8 +29,8 @@ nav {
 
 /* LOGO */
 .logo {
-    width: 200px;
-    height: auto;
+    width: 120px;
+    height: 100px;
     transition: 0.3s;
 }
 
