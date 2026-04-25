@@ -1,15 +1,18 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Projects</title>
 <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
-<div class="particles" id="particles"></div>
-<header>
-    <nav>
-           <div class="logo">VR</div>
+<div class="cursor"></div>
+<div class="cursor-trail"></div>
+
+<nav>
     <ul>
         <li><a href="index.html">Home</a></li>
         <li><a href="about.html">About</a></li>
@@ -17,52 +20,26 @@
         <li><a href="contact.html">Contact</a></li>
     </ul>
 </nav>
-</header>
 
-<section>
-<h1>My Projects</h1>
+<h1 class="title">MY PROJECTS</h1>
 
 <div class="box">
 <h3>Portfolio Website</h3>
-<p>
-Developed a personal portfolio using HTML & CSS with responsive design 
-and modern UI.
-</p>
+<p>Modern neon UI portfolio using HTML & CSS</p>
 </div>
 
 <div class="box">
-<h3>Responsive Web Pages</h3>
-<p>
-Built mobile-friendly web pages using Bootstrap and modern layout techniques.
-</p>
+<h3>Responsive Web Design</h3>
+<p>Mobile-friendly websites using CSS Flexbox</p>
 </div>
 
 <div class="box">
-<h3>Database Project</h3>
-<p>
-Worked with MySQL to design and manage structured data efficiently.
-</p>
+<h3>Database Management</h3>
+<p>MySQL-based data handling system project</p>
 </div>
 
-</section>
+<footer>© 2026 RITTHIKA VENGATESHAN</footer>
 
-<footer>
-<p>© 2026 Ritthika Vengateshan</p>
-</footer>
-
-    <script>
-        // Simple Particle Generator
-        const container = document.getElementById('particles');
-        for (let i = 0; i < 50; i++) {
-            const p = document.createElement('div');
-            p.className = 'particle';
-            p.style.left = Math.random() * 100 + '%';
-            p.style.top = Math.random() * 100 + '%';
-            p.style.width = p.style.height = Math.random() * 5 + 'px';
-            p.style.animationDuration = (Math.random() * 10 + 10) + 's';
-            p.style.animationDelay = (Math.random() * 5) + 's';
-            container.appendChild(p);
-        }
-    </script>
+<script src="script.js"></script>
 </body>
 </html>
