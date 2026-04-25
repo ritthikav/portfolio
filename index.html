@@ -1,17 +1,18 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Home</title>
 <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
-    <div class="particles" id="particles">
-<header>
-<nav>
-    <div class="logo">VR</div>
-     <!-- <img src="Futuristic VR logo design.png" alt="VR Logo" class="logo"> -->
+<div class="cursor"></div>
+<div class="cursor-trail"></div>
 
+<nav>
     <ul>
         <li><a href="index.html">Home</a></li>
         <li><a href="about.html">About</a></li>
@@ -19,42 +20,34 @@
         <li><a href="contact.html">Contact</a></li>
     </ul>
 </nav>
-</header>
 
 <section class="hero">
-    <h1>Hi, I'm Ritthika Vengateshan</h1>
-    <h2>Web Developer | CSE Student</h2>
+    <h3 class="greet">Hello, I'm</h3>
 
-    <p class="intro">
-        I build responsive, modern, and user-friendly web applications 
-        with a strong focus on performance and clean design.
-    </p>
+   <h1 class="welcome-text">
 
-    <p class="trust">
-        ✔ Reliable & Detail-Oriented <br>
-        ✔ Quick Learner <br>
-        ✔ Ready for Real-Time Projects <br>
-        ✔ Focused on Quality Delivery
-    </p>
+<span class="name-text">RITTHIKA VENGATESHAN</span>
+
+
+</h1> 
+
+    <h2 class="sub-text">Web Developer | UI Designer | Frontend Enthusiast</h2>
+
+    <div class="points">
+        <div class="point">⚡ Passionate Frontend Developer</div>
+        <div class="point">⏱ Strong Time Management Skills</div>
+        <div class="point">🎨 Creative UI/UX Designer</div>
+        <div class="point">📚 Continuous Learner</div>
+    </div>
 </section>
 
-<footer>
-    <p>© 2026 Ritthika Vengateshan</p>
-</footer>
-        </div>
-<script>
-        // Simple Particle Generator
-        const container = document.getElementById('particles');
-        for (let i = 0; i < 50; i++) {
-            const p = document.createElement('div');
-            p.className = 'particle';
-            p.style.left = Math.random() * 100 + '%';
-            p.style.top = Math.random() * 100 + '%';
-            p.style.width = p.style.height = Math.random() * 5 + 'px';
-            p.style.animationDuration = (Math.random() * 10 + 10) + 's';
-            p.style.animationDelay = (Math.random() * 5) + 's';
-            container.appendChild(p);
-        }
-    </script>
+<section class="box">
+<h2>Welcome</h2>
+<p>Modern web developer focused on clean UI, responsive design and interactive experiences.</p>
+</section>
+
+<footer>© 2026 RITTHIKA VENGATESHAN</footer>
+
+<script src="script.js"></script>
 </body>
 </html>
