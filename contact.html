@@ -1,15 +1,18 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Contact</title>
 <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
-<div class="particles" id="particles"></div>
-<header>
-    <nav>
-          <div class="logo">VR</div>
+<div class="cursor"></div>
+<div class="cursor-trail"></div>
+
+<nav>
     <ul>
         <li><a href="index.html">Home</a></li>
         <li><a href="about.html">About</a></li>
@@ -17,44 +20,18 @@
         <li><a href="contact.html">Contact</a></li>
     </ul>
 </nav>
-</header>
 
-<section>
-<h1>Contact Me</h1>
+<h1 class="title">CONTACT ME</h1>
 
 <div class="box">
-<p><strong>Email:</strong> ritthikav@gmail.com</p>
-<p><strong>Location:</strong> Tamil Nadu, India</p>
+<input type="text" placeholder="Your Name">
+<input type="email" placeholder="Your Email">
+<textarea placeholder="Your Message"></textarea>
+<button>Send</button>
 </div>
 
-<div class="box">
-<form>
-<input type="text" placeholder="Your Name" required>
-<input type="email" placeholder="Your Email" required>
-<textarea placeholder="Your Message" rows="5"></textarea>
-<button type="submit">Send Message</button>
-</form>
-</div>
+<footer>© 2026 RITTHIKA VENGATESHAN</footer>
 
-</section>
-
-<footer>
-<p>© 2026 Ritthika Vengateshan</p>
-</footer>
-    <script>
-        // Simple Particle Generator
-        const container = document.getElementById('particles');
-        for (let i = 0; i < 50; i++) {
-            const p = document.createElement('div');
-            p.className = 'particle';
-            p.style.left = Math.random() * 100 + '%';
-            p.style.top = Math.random() * 100 + '%';
-            p.style.width = p.style.height = Math.random() * 5 + 'px';
-            p.style.animationDuration = (Math.random() * 10 + 10) + 's';
-            p.style.animationDelay = (Math.random() * 5) + 's';
-            container.appendChild(p);
-        }
-    </script>
-
+<script src="script.js"></script>
 </body>
 </html>
