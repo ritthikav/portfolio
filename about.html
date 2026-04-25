@@ -1,15 +1,18 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>About</title>
 <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
-<div class="particles" id="particles"></div>
-<header>
-    <nav>
-          <div class="logo">VR</div>
+<div class="cursor"></div>
+<div class="cursor-trail"></div>
+
+<nav>
     <ul>
         <li><a href="index.html">Home</a></li>
         <li><a href="about.html">About</a></li>
@@ -17,71 +20,49 @@
         <li><a href="contact.html">Contact</a></li>
     </ul>
 </nav>
-</header>
 
-<section>
-<h1>About Me</h1>
+<h1 class="title">ABOUT ME</h1>
 
 <div class="box">
+<h2>RITTHIKA VENGATESHAN</h2>
+<p>Aspiring Web Developer passionate about building modern, responsive web applications using HTML, CSS, Python and web technologies.</p>
+</div>
+
+<div class="box">
+<h2>CAREER OBJECTIVE</h2>
+<p>To secure a challenging position in web development and continuously improve my technical skills while contributing to innovative projects.</p>
+</div>
+
+<div class="box">
+<h2>EDUCATION</h2>
 <p>
-I am Ritthika Vengateshan, a Computer Science Engineering student 
-passionate about web development. I focus on building efficient, 
-responsive, and visually appealing web applications.
+B.Tech CSE – PRIST University (2022–2026) CGPA: 8.9<br><br>
+HSC – 70%<br>
+SSLC – 55.8%
 </p>
 </div>
 
 <div class="box">
-<h2>Education</h2>
-<p><strong>B.Tech – CSE</strong></p>
-<p>PRIST University (2022 – 2026)</p>
-</div>
-
-<div class="box">
-<h2>Technical Skills</h2>
-<p>HTML, CSS, Bootstrap, Python, MySQL</p>
-</div>
-
-<div class="box">
-<h2>Internship</h2>
-<p><strong>Accent Techno Soft</strong></p>
-<p>Worked on real-time web development projects.</p>
-</div>
-
-<div class="box">
-<h2>Training</h2>
-<p><strong>CodeBind Technologies</strong></p>
-<p>Hands-on experience in development workflow.</p>
-</div>
-
-<div class="box">
-<h2>Strengths</h2>
+<h2>EXPERIENCE / TRAINING</h2>
 <p>
-✔ Problem Solving <br>
-✔ Team Collaboration <br>
-✔ Fast Learning <br>
-✔ Quality Focus
+Web Development Intern – ATS Coimbatore (Aug 2024)<br>
+Web Development Inplant Trainee – CodeBind Technologies (2026)<br>
+Teaching Support – HTML & CSS Basics
 </p>
 </div>
 
-</section>
+<div class="box">
+<h2>SKILLS</h2>
+<p>HTML • CSS • Bootstrap • Python • MySQL • MS Office • Web Development</p>
+</div>
 
-<footer>
-<p>© 2026 Ritthika Vengateshan</p>
-</footer>
-    <script>
-        // Simple Particle Generator
-        const container = document.getElementById('particles');
-        for (let i = 0; i < 50; i++) {
-            const p = document.createElement('div');
-            p.className = 'particle';
-            p.style.left = Math.random() * 100 + '%';
-            p.style.top = Math.random() * 100 + '%';
-            p.style.width = p.style.height = Math.random() * 5 + 'px';
-            p.style.animationDuration = (Math.random() * 10 + 10) + 's';
-            p.style.animationDelay = (Math.random() * 5) + 's';
-            container.appendChild(p);
-        }
-    </script>
+<div class="box">
+<h2>HOBBIES</h2>
+<p>Reading books • Exploring technologies • Problem solving</p>
+</div>
 
+<footer>© 2026 RITTHIKA VENGATESHAN</footer>
+
+<script src="script.js"></script>
 </body>
 </html>
